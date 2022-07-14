@@ -1,28 +1,23 @@
-# Boas-vindas ao repositório do projeto Trybewarts Wizarding School! 🧙
+# Bem vindo ao projeto Trybewarts
 
-<details>
-  <summary><strong>🧑‍💻 O que deverá ser desenvolvido</strong></summary><br />
+## Comentários
+Primeiro projeto desenvolvido em dupla, e foi um experiência muito boa. Utilizamos o método onde um codava enquanto o outro analisava o código, e foi fácil desenvolver o projeto dessa maneira, quando um cometia erro ou tinha dificuldades em desenvolver, o outro auxiliava. Criamos um site para bruxo do mundo de Harry Potter.🧙
 
-Neste projeto, você vai desenvolver uma página de formulário da Escola de Magia de Trybewarts, em que as pessoas estudantes poderão enviar seus feedbacks sobre ela. O tema desse projeto é baseado na obra 'Harry Potter', de J. K. Rowling, já que programar é o mais próximo que podemos chegar de algo **verdadeiramente mágico**! Mas não se preocupe se não tiver conhecimento sobre o universo da obra original, pois essa é uma versão própria da Escola de Bruxaria e você terá todas as informações necessárias para a construção do projeto nesse **README**!
+---
 
-</details>
+## Instalação do projeto localmente:
 
-<details>
-  <summary><strong>🏪 Desenvolvimento </strong></summary><br />
+1. No terminal, em um diretório de sua escolha, clonar o repositório:
 
-Você vai desenvolver este projeto em **equipe** e é fundamental que siga as instruções do repositório.
+```
+git clone git@github.com:lucas-da-silva/trybe-trybewarts.git
+```
 
-Todos os requisitos tem como base a página a seguir, que representa um formulário de avaliação da **Escola de Magia de Trybewarts**. Use a imagem do site como base e respeite o posicionamento dos elementos, mas quanto às cores e elementos de design que não interfiram nesses aspectos sinta-se livre para deixar a sua criatividade fluir!
+2. Dentro do repositório, basta abrir o arquivo index.html para visualizar o projeto no navegador. :rocket:
 
-![Página da Trybewarts](./pagina-principal.png)
+---
 
-</details>
-
-# Requisitos Obrigatórios
-
-Não se esqueça de criar os arquivos `index.html`, `style.css` e `script.js`!
-
-⚠️ Lembre-se de que o seu projeto só será avaliado se estiver passando por **todos os _checks_** do **Linter**. Utilize o comando `npm run lint` no seu terminal para verificar os _checks_ do **Linter** 😉 ⚠️
+## Requisitos
 
 ## 1. Crie uma barra verde na parte superior da página
 
@@ -34,12 +29,6 @@ A barra deve possuir a classe <code>header</code>, ser um <code>flex container</
   * Crie um elemento que possua a classe igual a `header`;
   * Faça com que o header seja um `flex container`;
   * Adicione ao elemento com a classe `header` a cor de fundo `rgb(50, 167, 145)`;
-
-  **O que será testado:**
-
-  * Existe um elemento com a classe `header`;
-  * O elemento possui a propriedade CSS `display: flex`;
-  * O elemento possui a propriedade CSS `background-color: rgb(50, 167, 145)`.
 
 </details>
 
@@ -53,11 +42,6 @@ A barra deve possuir a classe <code>header</code>, ser um <code>flex container</
   * Crie uma tag `img` dentro do elemento com a classe `header`:
     * Adicione a classe `trybewarts-header-logo`;
     * Adicione o atributo `src` com o valor `images/trybewarts-header-logo.svg`;
-
-  **O que será testado:**
-
-  * Existe um elemento `img` com a classe `trybewarts-header-logo`;
-  * O elemento possui o atributo `src` apontando para `images/trybewarts-header-logo.svg`.
 
 </details>
 
@@ -85,17 +69,6 @@ A barra deve possuir a classe <code>header</code>, ser um <code>flex container</
 
 **De olho na dica 👀:** adicione a propriedade `flex` que faz os elementos terem o espaçamento máximo **entre eles** no **header**
 
-**O que será testado:**
-
-* Existe um elemento `form` com a classe `trybewarts-login`;
-* Existe um input com o atributo `name` igual a **email** e o `placeholder` igual a **Email**;
-* Existe um input com o atributo `name` igual a **password** e o `placeholder` igual a **Senha**;
-* Existe um botão com o texto `Entrar`;
-* O formulário possui a propriedade CSS `display: flex`;
-* O elemento `form` está à direita da logo;
-* Ao clicar no botão de login dispara um `alert` com o texto `Email ou senha inválidos`, no caso de erro de preenchimento dos dados;
-* Ao clicar no botão de login dispara um `alert` com o texto `Olá, Tryber!`, no caso de preenchimento correto dos dados.
-
 </details>
 
 ## 4. Crie um título com o texto "Trybewarts" centralizado dentro do `Header`
@@ -110,12 +83,6 @@ A barra deve possuir a classe <code>header</code>, ser um <code>flex container</
 * O título deverá estar no meio da barra verde:
   * O header deve ter exatamente três elementos filhos;
   * O filho do meio deve ser o título;
-
-**O que será testado:**
-
-* Existe um elemento `h1` com o `id` igual a `trybewarts-header-title` e com o texto `Trybewarts`;
-* O elemento com a classe `header` deve possuir exatos `3` elementos filhos;
-* O filho do meio do elemento com a classe `header` deve ser o título `h1` com o texto `Trybewarts`.
 
   </details>
 
@@ -132,13 +99,6 @@ A barra deve possuir a classe <code>header</code>, ser um <code>flex container</
 * Faça com que o `main`, seja um `flex containers`;
 * Adicione uma largura de `675px` ao formulário.
 
-**O que será testado:**
-
-* Existe um elemento `form` com o `id` igual a `evaluation-form`;
-* O elemento `form` está dentro da tag `main`;
-* O elemento `main` e o `form` possuem a propriedade CSS `display: flex`;
-* O elemento `form` possui a propriedade CSS `width: 675px`;
-
 </details>
 
 ## 6. Faça com que a direção do formulário seja vertical
@@ -149,10 +109,6 @@ A barra deve possuir a classe <code>header</code>, ser um <code>flex container</
  </summary><br/>
 
 * Acrescente no formulário com `id` igual a `evaluation-form` a propriedade que muda a direção do elemento.
-
-**O que será testado:**
-
-* O elemento `evaluation-form` possui a propriedade CSS `flex-direction: column`.
 
 </details>
 
@@ -166,12 +122,6 @@ A barra deve possuir a classe <code>header</code>, ser um <code>flex container</
 * Crie um elemento `img` com o `id` igual a `trybewarts-forms-logo`;
 * Adicione o atributo `src` com o valor `images/trybewarts-colored.svg`;
 * Adicione o estilo css `height` de `500px`;
-
-**O que será testado:**
-
-* Existe um elemento `img` com o `id` igual a `trybewarts-forms-logo`;
-* O elemento possui o atributo `src` apontando para `images/trybewarts-colored.svg`;
-* A imagem possui o estilo css `height` igual a `500px`;
 
 </details>
 
@@ -189,12 +139,6 @@ A barra deve possuir a classe <code>header</code>, ser um <code>flex container</
 * Crie um input com o `id` igual a `input-email`:
   * Adicione o atributo `placeholder` com o valor `Email`.
 
-**O que será testado:**
-
-* Existe um input com o `id` igual a `input-name` e placeholder `Nome`;
-* Existe um input com o `id` igual a `input-lastname` e placeholder `Sobrenome`;
-* Existe um input com o `id` igual a `input-email` e placeholder `Email`.
-
 </details>
 
 ## 9. Acrescente um `select` ao formulário
@@ -211,14 +155,6 @@ A barra deve possuir a classe <code>header</code>, ser um <code>flex container</
   * a opção com `text` e `value` igual a `Corvinode` e com o `id` igual a `corvinode-house`;
   * a opção com `text` e `value` igual a `Pytherina` e com o `id` igual a `pytherina-house`.
 
-**O que será testado:**
-
-* Existe um elemento `select` com o id `house`;
-* Existe um elemento `option` com `text` e `value` igual a `Gitnória` e com o `id` igual a `gitnoria-house`;
-* Existe um elemento `option` com `text` e `value` igual a `Reactpuff` e com o `id` igual a `reactpuff-house`;
-* Existe um elemento `option` com `text` e `value` igual a `Corvinode` e com o `id` igual a `corvinode-house`;
-* Existe um elemento `option` com `text` e `value` igual a `Pytherina` e com o `id` igual a `pytherina-house`.
-
 </details>
 
 ## 10. Posicione os campos de `Nome` e `Sobrenome` lado a lado
@@ -230,10 +166,6 @@ A barra deve possuir a classe <code>header</code>, ser um <code>flex container</
 
   * Faça com que os campos de de `Nome` e `Sobrenome` fiquem lado a lado.
 
-**O que será testado:**
-
-* O campo de `Sobrenome` está à direita do campo de `Nome`.
-
 </details> 
 
 ## 11. Posicione os campos de `Email` e `Casa` lado a lado
@@ -244,10 +176,6 @@ A barra deve possuir a classe <code>header</code>, ser um <code>flex container</
   </summary> <br />
 
 * Faça com que os campos `Email` e `Casa` fiquem lado a lado.
-
-**O que será testado:**
-
-* O campo de `Casa` está à direita do campo de `Email`.
 
 </details>
 
@@ -265,15 +193,6 @@ A barra deve possuir a classe <code>header</code>, ser um <code>flex container</
   * um `input` do tipo `radio` com o atributo `name` igual a `family` e `value` igual a `FullStack`;
 * Posicione os `radio buttons` para ficar abaixo um do outro e na sequência: **Frontend**, **Backend** e **FullStack**
 * Posicione os radio buttons abaixo da `label`.
-
-**O que será testado:**
-
-* Existe um elemento `label` com o `id` igual a `label-family` que possui o conteúdo de texto `Qual sua família?`;
-* Existe um `input` do tipo `radio` com o atributo `name` igual a `family` e `value` igual a `Frontend`;
-* Existe um `input` do tipo `radio` com o atributo `name` igual a `family` e `value` igual a `Backend`;
-* Existe um `input` do tipo `radio` com o atributo `name` igual a `family` e `value` igual a `FullStack`;
-* Os inputs do tipo `radio` estão um abaixo do outro na sequência `Frontend`, `Backend` e `FullStack`.
-* Os inputs do tipo `radio` estão abaixo do texto da `label`
 
 </details>
 
@@ -293,17 +212,6 @@ A barra deve possuir a classe <code>header</code>, ser um <code>flex container</
 * Crie um input do tipo `checkbox` com a classe `subject` o `value` igual a `Python`;
 * Posicione as checkboxes abaixo da label.
 
-**O que será testado:**
-
-* Existe um elemento `label` com o `id` igual a `label-content` que possui um conteúdo de texto `Qual conteúdo você está com mais vontade de aprender?`;
-* Existe um `input` do tipo `checkbox` com a classe `subject` e o atributo `value` igual a `HoFs`;
-* Existe um `input` do tipo `checkbox` com a classe `subject` e o atributo `value` igual a `Jest`;
-* Existe um `input` do tipo `checkbox` com a classe `subject` e o atributo `value` igual a `Promises`;
-* Existe um `input` do tipo `checkbox` com a classe `subject` e o atributo `value` igual a `React`;
-* Existe um `input` do tipo `checkbox` com a classe `subject` e o atributo `value` igual a `SQL`;
-* Existe um `input` do tipo `checkbox` com a classe `subject` e o atributo `value` igual a `Python`;
-* Os elementos `checkbox` então posicionados abaixo da label.
-
 </details>
 
 ## 14. Crie um campo de avaliação
@@ -319,12 +227,6 @@ A barra deve possuir a classe <code>header</code>, ser um <code>flex container</
 * Adicione ao atributo `name` dos `radios buttons` o valor `rate`;
 * Posicione os `radio buttons` para ficar lado a lado.
 
-**O que será testado:**
-
-* Existe um elemento `label` com o `id` igual a `label-rate` que possui um conteúdo de texto `Como você avalia a Trybewarts?`;
-* Existem 10 `radio-buttons` com o atributo `name="rate"`;
-* Existem 10 `radio-buttons` contendo o atributo `value` de 1 a 10.
-
 </details>  
 
 ## 15. Crie uma textarea
@@ -336,11 +238,6 @@ A barra deve possuir a classe <code>header</code>, ser um <code>flex container</
 * Crie uma `textarea`;
 * Crie uma label com a classe `textarea` e que possua o texto **"Deixe seu comentário:"**;
 * Adicione ao elemento `textarea` o limite de 500 caracteres.
-
-**O que será testado:**
-
-* Existe uma `label` com a classe `textarea` e o texto `Deixe seu comentário:`;
-* O elemento `textarea` possui um limite de 500 caracteres.
 
 </details>
 
@@ -355,11 +252,6 @@ A barra deve possuir a classe <code>header</code>, ser um <code>flex container</
 * Crie uma label com o `id` igual a `label-infos` e que possua o texto **"Você concorda com o uso das informações acima?"**;
 * Posicione o `checkbox` ao lado da label.
 
-**O que será testado:**
-
-* Existe uma label com o `id` igual a `label-infos` que possui o texto `Você concorda com o uso das informações acima?`;
-* Existe um input do tipo `checkbox` com o `id` igual a `agreement`;
-
 </details> 
 
 ## 17. Crie um botão de "Enviar" para submeter o formulário
@@ -371,10 +263,6 @@ A barra deve possuir a classe <code>header</code>, ser um <code>flex container</
 
 * Crie um botão do tipo `submit` com o `id` igual a `submit-btn`;
 * Adicione o texto **"Enviar"** ao botão.
-
-**O que será testado:**
-
-* Existe um botão do tipo `submit` com o id `submit-btn` e o texto `Enviar`;
 
 </details>  
 
@@ -388,11 +276,6 @@ A barra deve possuir a classe <code>header</code>, ser um <code>flex container</
 * Desabilite o botão caso o `checkbox` não esteja selecionado;
 * Habilite o botão caso o `checkbox` seja selecionado.
 
-**O que será testado:**
-
-* O botão está inicialmente desabilitado;
-* O botão torna-se habilitado ao marcar o campo com `id` igual a `agreement`;
-
 </details>  
 
 ## 19. Crie um rodapé ao final da página
@@ -404,15 +287,11 @@ A barra deve possuir a classe <code>header</code>, ser um <code>flex container</
 
 * Crie um rodapé com o texto **"Direitos reservados à Trybewarts©"**.
 
-**O que será testado:**
-
-* Existe um elemento `footer` deve possuir o texto `Direitos reservados à Trybewarts©`.
-
 </details>  
 
 ---
 
-# Requisitos Bônus
+## Requisitos Bônus
 
 ## 20. Crie um contador de caracteres
 
@@ -427,12 +306,6 @@ A barra deve possuir a classe <code>header</code>, ser um <code>flex container</
 * Decremente o contador a medida que algo for escrito no campo `textarea`;
 * Incremente o contador a medida que algo for deletado no campo `textarea`;
 * Adicione ao elemento `textarea` o `id` igual a `textarea`.
-
-**O que será testado:**
-
-* Existe um elemento com o id `counter`;
-* Existe um elemento com o id `textarea`;
-* O preenchimento do campo de `textarea` altera o número apresentado no elemento `#counter`;
 
 </details>
 
@@ -454,25 +327,13 @@ A barra deve possuir a classe <code>header</code>, ser um <code>flex container</
   * Crie um campo que vai receber o comentário digitado pela pessoa usuária, no formato `Observações: Observações aqui`.
   * Substitua os campos do formulário campos do pelas informações da pessoa usuária;
 
-**O que será testado:**
-
-* O elemento `<form>` com `id` igual a `form-data` deve ser exibido na tela;
-* Ao clicar no botão de enviar, existe um texto no formato `Nome: -Nome- -Sobrenome-`;
-* Ao clicar no botão de enviar, existe um texto no formato `Email: -Email-`;
-* Ao clicar no botão de enviar, existe um texto no formato `Casa: -Casa-`;
-* Ao clicar no botão de enviar, existe um texto no formato `Família: -Família-`;
-* Ao clicar no botão de enviar, existe um texto no formato `Matérias: -Matérias Selecionadas-`;
-* Ao clicar no botão de enviar, existe um texto no formato `Avaliação: -Avaliação-`;
-* Ao clicar no botão de enviar, existe um texto no formato `Observações: -Observações-`;
-* Ao enviar as informações, o formulário deve ser substituído pelas informações da pessoa usuária.
-
 <img src="./formulario.gif">
 
 </details>
 
 ---
 
-# Requisito não avaliativo:
+## Requisito não avaliativo:
 
 Esse requisito **não** é verificado pelo avaliador automático.
 
