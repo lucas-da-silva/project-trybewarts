@@ -10,7 +10,7 @@ Primeiro projeto desenvolvido em dupla, e foi um experiência muito boa. Utiliza
 1. No terminal, em um diretório de sua escolha, clonar o repositório:
 
 ```
-git clone git@github.com:lucas-da-silva/trybe-trybewarts.git
+git clone git@github.com:lucas-da-silva/trybewarts.git
 ```
 
 2. Dentro do repositório, basta abrir o arquivo index.html para visualizar o projeto no navegador. :rocket:
