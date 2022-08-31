@@ -1,4 +1,4 @@
-# Bem vindo ao projeto Trybewarts
+# Bem vindo ao repositório do projeto Trybewarts
 
 ## Comentários
 Primeiro projeto desenvolvido em dupla, e foi um experiência muito boa. Utilizamos o método onde um codava enquanto o outro analisava o código, e foi fácil desenvolver o projeto dessa maneira, quando um cometia erro ou tinha dificuldades em desenvolver, o outro auxiliava. Criamos um site para bruxo do mundo de Harry Potter.🧙
